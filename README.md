@@ -20,8 +20,6 @@ Things that are deployed as part of [Terraform] :
 * IAM roles for executing ECS Tasks
 * EC2 Auto Scaling Group to run desired number of ECS Fargate instances
 
-On the EC2 instance, we have [scripts](scripts/job.sh) which are triggered by a cron job.
-
 
 ## Usage
 
