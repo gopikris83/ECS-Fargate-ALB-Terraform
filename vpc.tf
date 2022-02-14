@@ -66,11 +66,6 @@ resource "aws_route" "public-rt" {
 resource "aws_route_table" "pub-route-table" {
   count  = var.az_count
   vpc_id = aws_vpc.aws-vpc.id
-
-  # route {
-  #   cidr_block     = "0.0.0.0/0"
-  #   nat_gateway_id = element(aws_nat_gateway.natgw.*.id, count.index)
-  # }
 }
 
 resource "aws_route_table_association" "pub-rt-association" {
