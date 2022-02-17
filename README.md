@@ -42,6 +42,8 @@ terraform apply
 terraform destroy
 ```
 
+![AWS-ECS-Fargate-TF](/Aws-ECS-Fargate-diagram.png)
+
 
 
 
